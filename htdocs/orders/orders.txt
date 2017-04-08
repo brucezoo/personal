@@ -1,0 +1,104 @@
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh 
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570	
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570	
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570	
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570	
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570	
+2016JulWed	4 tires 	wef oil	wrf spark plugs	$400	wr
+2016JulWed	4 tires 	5 oil	4 spark plugs	$466	oruhq3  rhou hnalfkwhoh 
+2016JulWed	4 tires 	5 oil	3 spark plugs	$462	oruhq3  rhou hnalfkwhoh 
+2016JulWed	3 tires 	5 oil	3 spark plugs	$362	oruhq3  rhou hnalfkwhoh 
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh 
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh 
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh 
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulWed	4 tires 	wef oil	wrf spark plugs	$400	wr
+2016JulWed	4 tires 	5 oil	4 spark plugs	$466	oruhq3  rhou hnalfkwhoh
+2016JulWed	4 tires 	5 oil	3 spark plugs	$462	oruhq3  rhou hnalfkwhoh
+2016JulWed	3 tires 	5 oil	3 spark plugs	$362	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulWed	4 tires 	wef oil	wrf spark plugs	$400	wr
+2016JulWed	4 tires 	5 oil	4 spark plugs	$466	oruhq3  rhou hnalfkwhoh
+2016JulWed	4 tires 	5 oil	3 spark plugs	$462	oruhq3  rhou hnalfkwhoh
+2016JulWed	3 tires 	5 oil	3 spark plugs	$362	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulWed	4 tires 	wef oil	wrf spark plugs	$400	wr
+2016JulWed	4 tires 	5 oil	4 spark plugs	$466	oruhq3  rhou hnalfkwhoh
+2016JulWed	4 tires 	5 oil	3 spark plugs	$462	oruhq3  rhou hnalfkwhoh
+2016JulWed	3 tires 	5 oil	3 spark plugs	$362	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulWed	4 tires 	wef oil	wrf spark plugs	$400	wr
+2016JulWed	4 tires 	5 oil	4 spark plugs	$466	oruhq3  rhou hnalfkwhoh
+2016JulWed	4 tires 	5 oil	3 spark plugs	$462	oruhq3  rhou hnalfkwhoh
+2016JulWed	3 tires 	5 oil	3 spark plugs	$362	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulWed	4 tires 	wef oil	wrf spark plugs	$400	wr
+2016JulWed	4 tires 	5 oil	4 spark plugs	$466	oruhq3  rhou hnalfkwhoh
+2016JulWed	4 tires 	5 oil	3 spark plugs	$462	oruhq3  rhou hnalfkwhoh
+2016JulWed	3 tires 	5 oil	3 spark plugs	$362	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulWed	1 tires 	5 oil	3 spark plugs	$162	oruhq3  rhou hnalfkwhoh
+2016JulThu	0 tires 	1 oil	0 spark plugs	$10	akjbd  aohduia
+2016JulThu	4 tires 	5 oil	4 spark plugs	$466	aiu haihoaduh aou aduh aiu adh
+2016JulThu	5 tires 	8 oil	4 spark plugs	$596	KSDBA WQOHQOU HO
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+2016JulThu	5 tires 	5 oil	5 spark plugs	$570
+
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 
+2016AugTue	2 tires 	2 oil	2 spark plugs	$228	ftjftj 

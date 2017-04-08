@@ -1,0 +1,7 @@
+monolog[2016-12-03 12:01:00] my-app-name.WARNING: This is a warning! [] []
+[2016-12-03 12:01:44] my-app-name.WARNING: This is a warning! [] []
+[2016-12-03 12:16:15] my-app-name.WARNING: This is a warning! [] []
+[2016-12-03 12:16:38] my-app-name.WARNING: This is a warning! [] []
+[2016-12-03 12:16:38] my-app-name.WARNING: This is a warning! [] []
+[2016-12-03 19:17:23] my-app-name.WARNING: This is a warning! [] []
+[2016-12-06 19:26:59] my-app-name.WARNING: This is a warning! [] []
