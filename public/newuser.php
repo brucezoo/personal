@@ -26,7 +26,7 @@ $isaccount=filter_var($account,FILTER_VALIDATE_INT);
 $ispassword=filter_var($account,FILTER_VALIDATE_INT);
 try{
     if(!$isaccount){
-    throw new Exception('<h2>账号须为数字</h2>');
+        throw new Exception('<h2>账号须为数字</h2>');
     }
 
     if(!$ispassword){
@@ -58,18 +58,18 @@ try{
 }
 try {
     $pdo = new PDO(
-            sprintf('mysql:host=%s;dbname=%s;port=%s;charset=%s',
+        sprintf('mysql:host=%s;dbname=%s;port=%s;charset=%s',
             $settings['host'],
             $settings['dbname'],
             $settings['port'],
             $settings['charset']
-),
+        ),
         $settings['username'],
         $settings['password']
-);
+    );
 }catch(PDOException $e){
-  echo "数据库连接错误";
-  exit;
+    echo "数据库连接错误";
+    exit;
 }
 $sql1="select * from new WHERE account=?";
 $statement1=$pdo->prepare($sql);
@@ -84,7 +84,7 @@ if($result1){
 }elseif ($result2){
     echo "<h2>该昵称已存在，请重新注册</h2>";
 }else {
-    $query = "insert into new VALUES (NULL ,?,?,?,'default_avatar_male_50.gif')";
+    $query = "insert into new VALUES (NULL ,?,?,?,'default_avatar_male_50.gif'";
     $statement3=$pdo->prepare($query);
 //    $statement3->bindValue(':account',$account,PDO::PARAM_INT);
 //    $statement3->bindValue(':nickname',$nickname,PDO::PARAM_STR);

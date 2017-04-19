@@ -93,7 +93,7 @@
 <body>
 <form method="post"action="blogwrite.php">
 　　选择分类标签：<select name="choose_label">
-        <option value="1">新闻<option value="2">热点<option value="3">社会<option value="4">视频<option value="5">娱乐<option value="6">图片<option value="7">科技<option value="8">汽车<option value="9">体育<option value="10">军事<option value="11">国际<option value="12">教育<option value="13">健康<option value="14">历史<option value="15">养生<option value="16">文化</option>
+        <option value="1">PHP<option value="2">HTML<option value="3">CSS<option value="4">jQuery<option value="5">Javascript<option value="6">Laravel<option value="7">Linux<option value="8">CodeIgniter<option value="9">Smarty<option value="10">Git<option value="11">Mongodb<option value="12">MySQL</option>
 </select>
 　　　　　　　　标题：<input type="text"name="title"size="40">
 　　　   时间：<{$time}>

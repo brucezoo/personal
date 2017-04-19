@@ -103,7 +103,7 @@
                 <{section name=loop loop=$va}>
 
                 <h2 align='center'><a class='m' href='smarty_subp.php?id=<{$va[loop][0]}>' style='text-decoration: none'
-                                      target='_blank'><{$va[loop][1]}></a><br /></h2>
+                                      target='_blank'><{htmlentities($va[loop][1])}></a><br /></h2>
                 <p align='center' class=\"post-meta\">Posted by <a class='m' href='smarty_subp.php?id=<{$va[loop][0]}>'
                                                                    style='text-decoration: none' target='_blank'><{$va[loop][3]}></a> on <{$va[loop][4]}><br /></p>
             <hr>

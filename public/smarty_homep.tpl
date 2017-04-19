@@ -13,7 +13,7 @@
             font-family:arial,sans-serif}
         .x{color:white;font-size: 11pt;text-align:right;
             font-family:arial,sans-serif;}
-        .margin{margin: 1.5cm -1cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
+        .margin{margin: 2.5cm -2cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
            font-family:arial,sans-serif};
 
     </style>
@@ -21,7 +21,7 @@
     <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="clean-blog.min.css" rel="stylesheet">
+    <link href="./clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -97,7 +97,7 @@
             <div class="post-preview">
 <{section name=loop loop=$va}>
 <h2 align='center'><a class='m' href='smarty_subp.php?id=<{$va[loop][0]}>' style='text-decoration: none'
-                      target='_blank'><{$va[loop][1]}></a><br /></h2>
+                      target='_blank'><{htmlentities($va[loop][1])}></a><br /></h2>
 <p align='center' class=\"post-meta\">Posted by <a class='m' href='smarty_subp.php?id=<{$va[loop][0]}>'
    style='text-decoration: none' target='_blank'><{$va[loop][2]}></a> on <{$va[loop][3]}><br /></p>
 <hr>

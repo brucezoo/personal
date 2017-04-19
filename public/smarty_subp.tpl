@@ -86,7 +86,7 @@
             <div >
                 <div class="page-heading">
 <{section name=loop loop=$va}>
-                    <h1><{$va[loop][1]}></h1>
+                    <h1><{htmlentities($va[loop][1])}></h1>
 
                 </div>
             </div>
@@ -103,10 +103,8 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-2">
-<{$va[loop][2]}>
-            <{if $va[loop][0] eq 1}>
-            <{$add}>
-            <{/if}>
+           <{htmlentities($va[loop][2])}>
+
             <{/section}>
 
             <p><b>评论专区：在文本框中输入你的评论</b></p>

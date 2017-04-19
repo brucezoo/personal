@@ -1,13 +1,13 @@
 <?php
 session_start();
 require ("./test/smarty/main1.php");
-$db=new mysqli("localhost","root","root","blog");
+$db=new mysqli("127.0.0.1","root","root","blog");
 if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";
     exit;
 }
 $tpl->assign("title","博客主页");
-
+//
 $quer="select * from navs";
 $resu=$db->query($quer);
 
@@ -20,8 +20,8 @@ for($i=0;$i<$rownum;$i++){
 $tpl->assign("nav",$row);
 $tpl->assign("hptitle","我的博客");
 $tpl->assign("hp_subtitle","一个PHP菜鸟写的第一个博客");
-//$tpl->display("smarty_homep.tpl");
-
+////$tpl->display("smarty_homep.tpl");
+//
 $query="select id,title,author,articledate from article ";
 $result=$db->query($query);
 

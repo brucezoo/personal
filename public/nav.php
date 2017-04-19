@@ -2,7 +2,7 @@
 session_start();
 require ("./test/smarty/main1.php");
 $classid=$_GET["classid"];
-$db=new mysqli("localhost","root","root","blog");
+$db=new mysqli("127.0.0.1","root","root","blog");
 if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";
     exit;
@@ -16,7 +16,7 @@ $res=$db->query($que);
 $roww=$res->fetch_row();
 //var_dump($res);
 $tpl->assign("title",$roww[0]);
-$quer="select * from article_class";
+$quer="select * from navs";
 $resu=$db->query($quer);
 $rownum=$resu->num_rows;
 for($i=0;$i<$rownum;$i++){
