@@ -33,14 +33,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blogwrite.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blogwrite.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blogwrite.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="162">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
-                <marker date="1492688831000" expanded="true" signature="1074:1181" ph="insert into article... " />
-                <marker date="1492688831000" expanded="true" signature="1193:1238" ph="insert into article... " />
+                <marker date="1492692379000" expanded="true" signature="1125:1232" ph="insert into article... " />
+                <marker date="1492692379000" expanded="true" signature="1244:1289" ph="insert into article... " />
               </folding>
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="smarty_subp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarty_subp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="1098">
               <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding>
                 <marker date="1492596125000" expanded="true" signature="202:233" ph="select * fro... article" />
@@ -65,11 +65,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smarty_subp.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="smarty_subp.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarty_subp.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smarty_homep.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty_homep.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-630">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writeblog.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/writeblog.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -152,17 +172,17 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/smarty_homep.php" />
-        <option value="$PROJECT_DIR$/smarty_homep.tpl" />
         <option value="$PROJECT_DIR$/newuser.php" />
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/personnel_blog.tpl" />
         <option value="$PROJECT_DIR$/replace_head_image.tpl" />
-        <option value="$PROJECT_DIR$/writeblog.tpl" />
         <option value="$PROJECT_DIR$/nav.tpl" />
         <option value="$PROJECT_DIR$/replace_head_image.php" />
         <option value="$PROJECT_DIR$/head_image_replace.php" />
-        <option value="$PROJECT_DIR$/blogwrite.php" />
         <option value="$PROJECT_DIR$/smarty_subp.tpl" />
+        <option value="$PROJECT_DIR$/smarty_homep.tpl" />
+        <option value="$PROJECT_DIR$/writeblog.tpl" />
+        <option value="$PROJECT_DIR$/blogwrite.php" />
       </list>
     </option>
   </component>
@@ -295,12 +315,12 @@
       <workItem from="1490353366501" duration="381000" />
       <workItem from="1491552352677" duration="8511000" />
       <workItem from="1491571877862" duration="13474000" />
-      <workItem from="1492589401148" duration="12526000" />
+      <workItem from="1492589401148" duration="13397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136613000" />
+    <option name="totallyTimeSpent" value="137484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -506,14 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smarty_homep.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nav.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -580,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/writeblog.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newuser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -601,20 +605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogwrite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding>
-            <marker date="1492688831000" expanded="true" signature="1074:1181" ph="insert into article... " />
-            <marker date="1492688831000" expanded="true" signature="1193:1238" ph="insert into article... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smarty_subp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="1098">
           <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding>
             <marker date="1492596125000" expanded="true" signature="202:233" ph="select * fro... article" />
@@ -631,9 +624,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smarty_subp.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty_homep.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/writeblog.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogwrite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <marker date="1492692379000" expanded="true" signature="1125:1232" ph="insert into article... " />
+            <marker date="1492692379000" expanded="true" signature="1244:1289" ph="insert into article... " />
+          </folding>
         </state>
       </provider>
     </entry>

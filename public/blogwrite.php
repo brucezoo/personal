@@ -1,7 +1,7 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-<title>写博客</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>写博客</title>
     <style type="text/css">
         h1 {color: mediumspringgreen;font-size: 36pt;text-align: center;
             font-family:arial,sans-serif}
@@ -52,8 +52,6 @@ $insert="insert into article values (null,?,?,?,?,0,?)";
 $result=$pdo->prepare($insert);
 $result->execute(array($title,$content,$author,$time,$class_name));
 //$reslt=$db->query($insert);
-var_dump($result);
-exit();
 echo "<br><br>";
 echo "<h1>发表成功！正在跳转到博客首页中....</h1>";
 echo "<br>";
