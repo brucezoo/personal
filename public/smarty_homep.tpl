@@ -77,7 +77,7 @@
     <a href="personnel_blog.php"title="用户中心"><img align="right" class='margin' src="upload/<{$head_image}>" ></a>
         <h2  class='margin'><a class='x'style='text-decoration: none'href="personnel_blog.php"title="用户中心"><{$smarty.session.valid_user}></a><br><a class='x' href='logout.php' style='text-decoration: none'>退出</a></h2><br />
         <{else}>
-    <img align="right" class='margin'src="default_avatar_male_50.gif">
+    <img align="right" class='margin'src="upload/default_avatar_male_50.gif">
         <h2 class='margin'><a class='x'href='register.html'style='text-decoration: none'>注册</a></h2><br />
         <{/if}>
         <div class="row">
@@ -120,7 +120,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
             </div>
         </div>
     </div>

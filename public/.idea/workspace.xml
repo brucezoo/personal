@@ -33,35 +33,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="smarty_homep.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty_homep.php">
+      <file leaf-file-name="replace_head_image.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/replace_head_image.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-              <folding>
-                <marker date="1492595935000" expanded="true" signature="214:232" ph="select * fro... navs" />
-                <marker date="1492595935000" expanded="true" signature="539:586" ph="select id,ti... article" />
-                <marker date="1492595935000" expanded="true" signature="1119:1186" ph="select * fro... new" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smarty_subp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smarty_subp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <marker date="1492596125000" expanded="true" signature="202:233" ph="select * fro... article" />
-                <marker date="1492596125000" expanded="true" signature="366:393" ph="select * fro... article_class" />
-                <marker date="1492596125000" expanded="true" signature="619:661" ph="UPDATE artic... " />
-                <marker date="1492596125000" expanded="true" signature="682:713" ph="select * fro... article" />
-                <marker date="1492596125000" expanded="true" signature="1703:1819" ph="insert into feedback... " />
-                <marker date="1492596125000" expanded="true" signature="1920:1952" ph="select * fro... feedback" />
-                <marker date="1492596125000" expanded="true" signature="2340:2446" ph="select usern... feedback" />
-                <marker date="1492596125000" expanded="true" signature="2534:2601" ph="select * fro... new" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,11 +46,29 @@
       <file leaf-file-name="smarty_subp.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smarty_subp.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writeblog.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/writeblog.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1259">
+              <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personnel_blog.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/personnel_blog.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,8 +76,8 @@
       <file leaf-file-name="personnel_blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personnel_blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="378">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
                 <marker date="1492596183000" expanded="true" signature="181:199" ph="select * fro... navs" />
                 <marker date="1492596183000" expanded="true" signature="404:450" ph="select * fro... article" />
@@ -92,46 +87,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personnel_blog.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/personnel_blog.tpl">
+      <file leaf-file-name="newuser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="replace_head_image.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replace_head_image.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="replace_head_image.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/replace_head_image.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="990">
+              <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
-                <marker date="1492596281000" expanded="true" signature="215:233" ph="select * fro... navs" />
-                <marker date="1492596281000" expanded="true" signature="425:492" ph="select * fro... new" />
+                <marker date="1492661701000" expanded="true" signature="2058:2091" ph="select * fro... new" />
+                <marker date="1492661701000" expanded="true" signature="2223:2257" ph="SELECT * FRO... new" />
+                <marker date="1492661701000" expanded="true" signature="2508:2572" ph="insert into new... " />
+                <marker date="1492661701000" expanded="true" signature="2508:2573" ph="insert into new... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogwrite.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogwrite.php">
+      <file leaf-file-name="nav.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nav.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="19">
+              <caret line="100" column="99" lean-forward="true" selection-start-line="100" selection-start-column="99" selection-end-line="100" selection-end-column="99" />
               <folding>
-                <marker date="1492596125000" expanded="true" signature="815:922" ph="insert into article... " />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smarty_homep.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smarty_homep.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nav.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <folding>
+                <marker date="1492661762000" expanded="true" signature="636:686" ph="select class... navs" />
+                <marker date="1492661762000" expanded="true" signature="802:820" ph="select * fro... navs" />
+                <marker date="1492661762000" expanded="true" signature="1063:1133" ph="select id,ti... article" />
+                <marker date="1492661762000" expanded="true" signature="1273:1340" ph="select * fro... new" />
               </folding>
             </state>
           </provider>
@@ -159,17 +171,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/database/migrations/2017_03_13_140423_create_article_table.php" />
-        <option value="$PROJECT_DIR$/blog/database/migrations/2017_03_13_144725_create_articel_table.php" />
-        <option value="$PROJECT_DIR$/blog/database/seeds/ArticleSeeder.php" />
-        <option value="$PROJECT_DIR$/blog/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/blog/config/app.php" />
-        <option value="$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php" />
-        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Admin/HomeController.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/admin/home.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/admin/article/index.blade.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/blog/resources/views/admin/article/edit.blade.php" />
         <option value="$PROJECT_DIR$/blog/database/migrations/2017_03_16_172937_create_comments_table.php" />
@@ -180,7 +184,6 @@
         <option value="$PROJECT_DIR$/blog/app/Http/Controllers/CommentController.php" />
         <option value="$PROJECT_DIR$/blog/app/Comment.php" />
         <option value="$PROJECT_DIR$/blog/.env" />
-        <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/blog/resources/views/blog/login.blade.php" />
         <option value="$PROJECT_DIR$/blog/database/migrations/2017_03_18_115516_create_navs_table.php" />
         <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LoginController.php" />
@@ -193,23 +196,32 @@
         <option value="$PROJECT_DIR$/project/platform/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/project/Vagrantfile" />
         <option value="$PROJECT_DIR$/../settings.php" />
-        <option value="$PROJECT_DIR$/settings.php" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/blog/routes/web.php" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/newuser.php" />
         <option value="$PROJECT_DIR$/clean-blog.min.css" />
-        <option value="$PROJECT_DIR$/writeblog.tpl" />
-        <option value="$PROJECT_DIR$/smarty_subp.tpl" />
-        <option value="$PROJECT_DIR$/smarty_homep.tpl" />
-        <option value="$PROJECT_DIR$/smarty_homep.php" />
         <option value="$PROJECT_DIR$/smarty_subp.php" />
-        <option value="$PROJECT_DIR$/blogwrite.php" />
-        <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/writebolg.php" />
         <option value="$PROJECT_DIR$/personnel_blog.php" />
-        <option value="$PROJECT_DIR$/personnel_blog.tpl" />
         <option value="$PROJECT_DIR$/replace_head_image.php" />
+        <option value="$PROJECT_DIR$/settings.php" />
+        <option value="$PROJECT_DIR$/blogwrite.php" />
+        <option value="$PROJECT_DIR$/head_image_replace.php" />
+        <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/jshop_detail.html" />
+        <option value="$PROJECT_DIR$/jshop_index.html" />
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/smarty_homep.php" />
+        <option value="$PROJECT_DIR$/smarty_homep.tpl" />
+        <option value="$PROJECT_DIR$/newuser.php" />
+        <option value="$PROJECT_DIR$/nav.php" />
+        <option value="$PROJECT_DIR$/personnel_blog.tpl" />
+        <option value="$PROJECT_DIR$/replace_head_image.tpl" />
+        <option value="$PROJECT_DIR$/smarty_subp.tpl" />
+        <option value="$PROJECT_DIR$/writeblog.tpl" />
+        <option value="$PROJECT_DIR$/nav.tpl" />
       </list>
     </option>
   </component>
@@ -342,12 +354,12 @@
       <workItem from="1490353366501" duration="381000" />
       <workItem from="1491552352677" duration="8511000" />
       <workItem from="1491571877862" duration="13474000" />
-      <workItem from="1492589401148" duration="4454000" />
+      <workItem from="1492589401148" duration="9498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128541000" />
+    <option name="totallyTimeSpent" value="133585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -385,15 +397,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/app/Http/Kernel.php" />
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php" />
-    <entry file="file://$PROJECT_DIR$/blog/config/app.php" />
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Contracts/Mail/Mailer.php" />
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Contracts/Redis/Factory.php" />
-    <entry file="file://$PROJECT_DIR$/blog/app/Providers/BroadcastServiceProvider.php" />
-    <entry file="file://$PROJECT_DIR$/blog/app/Providers/RouteServiceProvider.php" />
-    <entry file="file://$PROJECT_DIR$/blog/app/Article.php" />
-    <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Contracts/Support/Arrayable.php" />
     <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Contracts/Auth/SupportsBasicAuth.php" />
     <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php" />
     <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Support/Facades/Cache.php" />
@@ -422,26 +425,11 @@
     <entry file="file://$PROJECT_DIR$/blog/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php" />
     <entry file="file://$PROJECT_DIR$/../settings.php" />
     <entry file="file://$PROJECT_DIR$/modern-php-master/05-good-practices/databases/settings.php" />
-    <entry file="file://$PROJECT_DIR$/settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/PDO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
           <caret line="686" column="20" lean-forward="false" selection-start-line="686" selection-start-column="20" selection-end-line="686" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -467,93 +455,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/writeblog.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="98" column="18" lean-forward="true" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty_subp.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/upload/default_avatar_male_501.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blogwrite.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="181">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
-            <marker date="1492596125000" expanded="true" signature="815:922" ph="insert into article... " />
+            <marker date="1492658913000" expanded="true" signature="816:923" ph="insert into article... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newuser.php">
+    <entry file="file://$PROJECT_DIR$/head_image_replace.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="-323">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <marker date="1492589551000" expanded="true" signature="2074:2107" ph="select * fro... new" />
-            <marker date="1492589551000" expanded="true" signature="2239:2273" ph="SELECT * FRO... new" />
-            <marker date="1492589551000" expanded="true" signature="2524:2588" ph="insert into new... " />
+            <marker date="1492658912000" expanded="true" signature="1503:1596" ph="update new s... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nav.php">
+    <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="126">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jshop_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4463">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jshop_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7703">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
-            <marker date="1492596124000" expanded="true" signature="636:686" ph="select class... navs" />
-            <marker date="1492596124000" expanded="true" signature="802:820" ph="select * fro... navs" />
-            <marker date="1492596124000" expanded="true" signature="1063:1133" ph="select id,ti... article" />
-            <marker date="1492596124000" expanded="true" signature="1672:1739" ph="select * fro... new" />
+            <marker date="1492659283000" expanded="true" signature="5228:5299" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="325">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
           <folding>
-            <marker date="1492589551000" expanded="true" signature="1454:1508" ph="select passw... new" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty_homep.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smarty_homep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <marker date="1492595935000" expanded="true" signature="214:232" ph="select * fro... navs" />
-            <marker date="1492595935000" expanded="true" signature="539:586" ph="select id,ti... article" />
-            <marker date="1492595935000" expanded="true" signature="1119:1186" ph="select * fro... new" />
+            <marker date="1492659334000" expanded="true" signature="1455:1510" ph="select passw... new" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/writebolg.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding>
             <marker date="1492596125000" expanded="true" signature="215:233" ph="select * fro... navs" />
             <marker date="1492596125000" expanded="true" signature="425:492" ph="select * fro... new" />
@@ -561,10 +535,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1709">
+          <caret line="98" column="41" lean-forward="true" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/smarty_subp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="1278">
+          <caret line="71" column="75" lean-forward="true" selection-start-line="71" selection-start-column="75" selection-end-line="71" selection-end-column="75" />
           <folding>
             <marker date="1492596125000" expanded="true" signature="202:233" ph="select * fro... article" />
             <marker date="1492596125000" expanded="true" signature="366:393" ph="select * fro... article_class" />
@@ -578,10 +560,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smarty_homep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <marker date="1492660312000" expanded="true" signature="214:232" ph="select * fro... navs" />
+            <marker date="1492660312000" expanded="true" signature="539:586" ph="select id,ti... article" />
+            <marker date="1492660312000" expanded="true" signature="1119:1186" ph="select * fro... new" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace_head_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <marker date="1492596281000" expanded="true" signature="215:233" ph="select * fro... navs" />
+            <marker date="1492596281000" expanded="true" signature="425:492" ph="select * fro... new" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personnel_blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <marker date="1492596183000" expanded="true" signature="181:199" ph="select * fro... navs" />
             <marker date="1492596183000" expanded="true" signature="404:450" ph="select * fro... article" />
@@ -590,30 +611,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personnel_blog.tpl">
+    <entry file="file://$PROJECT_DIR$/newuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+        <state relative-caret-position="990">
+          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <marker date="1492661701000" expanded="true" signature="2058:2091" ph="select * fro... new" />
+            <marker date="1492661701000" expanded="true" signature="2223:2257" ph="SELECT * FRO... new" />
+            <marker date="1492661701000" expanded="true" signature="2508:2572" ph="insert into new... " />
+            <marker date="1492661701000" expanded="true" signature="2508:2573" ph="insert into new... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <marker date="1492661762000" expanded="true" signature="636:686" ph="select class... navs" />
+            <marker date="1492661762000" expanded="true" signature="802:820" ph="select * fro... navs" />
+            <marker date="1492661762000" expanded="true" signature="1063:1133" ph="select id,ti... article" />
+            <marker date="1492661762000" expanded="true" signature="1273:1340" ph="select * fro... new" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smarty_homep.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/replace_head_image.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="324">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replace_head_image.php">
+    <entry file="file://$PROJECT_DIR$/smarty_subp.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/writeblog.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1259">
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="100" column="99" lean-forward="true" selection-start-line="100" selection-start-column="99" selection-end-line="100" selection-end-column="99" />
           <folding>
-            <marker date="1492596281000" expanded="true" signature="215:233" ph="select * fro... navs" />
-            <marker date="1492596281000" expanded="true" signature="425:492" ph="select * fro... new" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personnel_blog.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

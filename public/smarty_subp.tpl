@@ -15,7 +15,7 @@
             font-family:arial,sans-serif}
         .x{color:white;font-size: 11pt;text-align:right;
             font-family:arial,sans-serif;}
-        .margin{margin: 1.5cm -1cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
+        .margin{margin: 2.5cm -2cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
            font-family:arial,sans-serif};
     </style>
     <!-- Bootstrap Core CSS -->
@@ -79,7 +79,7 @@
         <a href="personnel_blog.php"><img align="right" class='margin' src="./upload/<{$head_image}>"></a>
         <h2  class='margin'><a class='x'style='text-decoration: none'href="personnel_blog.php"><{$smarty.session.valid_user}></a><br><a class='x' href='logout.php' style='text-decoration: none'>退出</a></h2><br />
         <{else}>
-    <img align="right" class='margin'src="default_avatar_male_50.gif">
+    <img align="right" class='margin'src="./upload/default_avatar_male_50.gif">
         <h2 class='margin'><a class='x'href='register.html'style='text-decoration: none'>注册</a></h2><br />
         <{/if}>
         <div class="row">
@@ -139,7 +139,7 @@
     </p>
     <{section name=loop loop=$a}><br>
     <{$a[loop][0]}> 　　　<{$a[loop][2]}>
-    <h3><{$a[loop][1]}></h3><br />
+    <h3><{htmlentities($a[loop][1])}></h3><br />
 <hr width='60%' align='left'>
     <{/section}>
    共 <{$pagenum}> 页　
@@ -174,33 +174,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+
+                <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
             </div>
         </div>
     </div>

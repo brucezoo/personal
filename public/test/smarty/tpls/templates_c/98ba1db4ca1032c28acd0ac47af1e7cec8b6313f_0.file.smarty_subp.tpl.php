@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-19 11:34:44
+/* Smarty version 3.1.29, created on 2017-04-20 06:07:50
   from "/Users/zhufeng/zhufeng/public/public/smarty_subp.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58f72f34a29e99_27434096',
+  'unifunc' => 'content_58f8341611b373_75034005',
   'file_dependency' => 
   array (
     '98ba1db4ca1032c28acd0ac47af1e7cec8b6313f' => 
     array (
       0 => '/Users/zhufeng/zhufeng/public/public/smarty_subp.tpl',
-      1 => 1492594469,
+      1 => 1492661238,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58f72f34a29e99_27434096 ($_smarty_tpl) {
+function content_58f8341611b373_75034005 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -130,7 +130,7 @@ $_smarty_tpl->tpl_vars['__smarty_section_loop'] = $__section_loop_0_saved;
         <h2  class='margin'><a class='x'style='text-decoration: none'href="personnel_blog.php"><?php echo $_SESSION['valid_user'];?>
 </a><br><a class='x' href='logout.php' style='text-decoration: none'>退出</a></h2><br />
         <?php } else { ?>
-    <img align="right" class='margin'src="default_avatar_male_50.gif">
+    <img align="right" class='margin'src="./upload/default_avatar_male_50.gif">
         <h2 class='margin'><a class='x'href='register.html'style='text-decoration: none'>注册</a></h2><br />
         <?php }?>
         <div class="row">
@@ -218,7 +218,7 @@ for ($__section_loop_2_iteration = 1, $_smarty_tpl->tpl_vars['__smarty_section_l
     <?php echo $_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][0];?>
  　　　<?php echo $_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][2];?>
 
-    <h3><?php echo $_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][1];?>
+    <h3><?php echo htmlentities($_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][1]);?>
 </h3><br />
 <hr width='60%' align='left'>
     <?php
@@ -279,33 +279,8 @@ $_smarty_tpl->tpl_vars['__smarty_section_loop'] = $__section_loop_3_saved;
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+
+                <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
             </div>
         </div>
     </div>

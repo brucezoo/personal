@@ -7,7 +7,7 @@
             font-family:arial,sans-serif}
     </style>
 </head>
-<body background="home-bg.jpg">
+<body background="/home-bg.jpg">
 <h1>更换头像</h1>
 <?php
 session_start();
@@ -55,7 +55,7 @@ if(mysqli_connect_errno()){
 }
 $sql="update new set head_image='".$head_image."' where account='".$user."' or nickname='".$user."'";
 $result=$db->query($sql);
-$url="http://localhost/smarty_homep.php";
+$url="/smarty_homep.php";
 ?>
 </body>
 </html>

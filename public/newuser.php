@@ -52,7 +52,7 @@ try{
 }catch(Exception $e){
     echo $e->getMessage();
     echo "<h1>登录失败！正在跳转到登录界面中......</h1>";
-    $url="http://localhost/register.html";
+    $url="/register.html";
     echo "<META HTTP-EQUIV=\"refresh\" CONTENT=\"5;url=$url\">";
     exit();
 }
@@ -84,7 +84,7 @@ if($result1){
 }elseif ($result2){
     echo "<h2>该昵称已存在，请重新注册</h2>";
 }else {
-    $query = "insert into new VALUES (NULL ,?,?,?,'default_avatar_male_50.gif'";
+    $query = "insert into new VALUES (NULL ,?,?,?,'default_avatar_male_50.gif')";
     $statement3=$pdo->prepare($query);
 //    $statement3->bindValue(':account',$account,PDO::PARAM_INT);
 //    $statement3->bindValue(':nickname',$nickname,PDO::PARAM_STR);

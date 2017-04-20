@@ -86,7 +86,7 @@
                         <p>iBlog是一个 高性能，易拓展的博客系统，它基于PHP5.6+MySQL5.5构建。使用了Codeigniter框架。通过模版引擎将逻辑层与表现层分离。网站支持注册账号，表单验证，导航分类，查看文章，发表评论，更换头像，撰写博客等功能。其中 查看头像使用了 Gravatar的API。评论系统集成 “多说”社会化评论插件。
 
                         </p>
-                        <a href="smarty_homep.php" class="ghost-button">See it in a new page</a>
+                        <a href="/blog.html" class="ghost-button">See it in a new page</a>
                     </div>
                     <div class="col-sm-6 img-wrapper">
                         <img alt="" title="" src="./kuangjia/home-box.jpg">
@@ -227,8 +227,5 @@
 <script src="./kuangjia/parsley.min.js"></script>
 <script src="./kuangjia/main.js"></script>
 
-</body></html>
-<?php
-
-echo "foobar"[2];
-?>
+</body>
+</html>

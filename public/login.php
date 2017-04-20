@@ -11,7 +11,7 @@
             font-family:arial,sans-serif;font-weight: bold}
     </style>
 </head>
-<body background="home-bg.jpg">
+<body background="/home-bg.jpg">
 <h1>登录博客</h1>
 </body>
 </html>
@@ -54,11 +54,10 @@ try {
     echo "数据库连接错误";
     exit;
 }
-$query="select password from new where account=? or nickname=?";
+$query="select password from new where account=? and nickname=?";
 $statement=$pdo->prepare($query);
 $statement->execute(array($account,$nickname));
 $results=$statement->fetchAll(PDO::FETCH_ASSOC);
-//var_dump($results);
 foreach ($results as $result) {
     $passwordHash=$result['password'];
 }
@@ -94,7 +93,7 @@ if(password_verify($password,$passwordHash)===false){
 //    echo "</script>";
 //    header("location:http://localhost/blog_homepage.php");
 //    exit();
-    $url="http://localhost/smarty_homep.php";
+    $url="/smarty_homep.php";
 }
 if(isset($_SESSION["valid_user"])){
     echo "<h2>当前登录账号：".$_SESSION["valid_user"]."</h2><br />";

@@ -7,7 +7,7 @@
             font-family:arial,sans-serif}
         </style>
 </head>
-<body background="home-bg.jpg">
+<body background="/home-bg.jpg">
 </body>
 </html>
 <?php
@@ -22,7 +22,7 @@ $title=filter_input(INPUT_POST,'title');
 $time=date('Y-m-d H:i:s');
 //@$content=$_POST["content"];
 $content=filter_input(INPUT_POST,'content');
-$db=new mysqli("127.0.0.1","root","root","blog");
+$db=new mysqli("localhost","root","root","blog");
 if(mysqli_connect_errno()){
     echo "<h1>服务器繁忙，请稍后再试</h1>";
     exit;
@@ -42,7 +42,7 @@ echo "<br><br>";
 echo "<h1>发表成功！正在跳转到博客首页中....</h1>";
 echo "<br>";
 echo "<h1>可在博客首页或者导航分类栏中点击查看</h1>";
-$url="http://localhost/smarty_homep.php";
+$url="/smarty_homep.php";
 ?>
 <html>
 <head>
