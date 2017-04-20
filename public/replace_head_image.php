@@ -1,7 +1,6 @@
 <?php
 session_start();
 require ("./test/smarty/main1.php");
-date_default_timezone_set('prc');
 $db=new mysqli("127.0.0.1","root","root","blog");
 if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";

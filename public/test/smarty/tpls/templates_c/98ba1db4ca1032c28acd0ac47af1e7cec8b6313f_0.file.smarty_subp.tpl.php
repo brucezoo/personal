@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-20 06:07:50
+/* Smarty version 3.1.29, created on 2017-04-20 13:52:09
   from "/Users/zhufeng/zhufeng/public/public/smarty_subp.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58f8341611b373_75034005',
+  'unifunc' => 'content_58f8a0e9475b06_86423006',
   'file_dependency' => 
   array (
     '98ba1db4ca1032c28acd0ac47af1e7cec8b6313f' => 
     array (
       0 => '/Users/zhufeng/zhufeng/public/public/smarty_subp.tpl',
-      1 => 1492661238,
+      1 => 1492689121,
       2 => 'file',
     ),
   ),
@@ -19,12 +19,12 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58f8341611b373_75034005 ($_smarty_tpl) {
+function content_58f8a0e9475b06_86423006 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -39,7 +39,7 @@ function content_58f8341611b373_75034005 ($_smarty_tpl) {
             font-family:arial,sans-serif}
         .x{color:white;font-size: 11pt;text-align:right;
             font-family:arial,sans-serif;}
-        .margin{margin: 1.5cm -1cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
+        .margin{margin: 2.5cm -2cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
            font-family:arial,sans-serif};
     </style>
     <!-- Bootstrap Core CSS -->
@@ -165,7 +165,7 @@ for ($__section_loop_1_iteration = 1, $_smarty_tpl->tpl_vars['__smarty_section_l
 <div class="container">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-2">
-           <?php echo htmlentities($_smarty_tpl->tpl_vars['va']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][2]);?>
+           <?php echo $_smarty_tpl->tpl_vars['va']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][2];?>
 
 
             <?php

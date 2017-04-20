@@ -34,7 +34,7 @@ if(!$_FILES["replace_head_image"]["type"]="png/gif/jpeg")
     echo "<h1>异常：上传头像非图片文件</h1>";
    exit();
 }
-$upfile='upload/'.$_FILES["replace_head_image"]["name"];
+$upfile=$_SERVER["DOCUMENT_ROOT"].'/upload/'.$_FILES["replace_head_image"]["name"];
 if(is_uploaded_file($_FILES["replace_head_image"]["tmp_name"])){
     if(!move_uploaded_file($_FILES["replace_head_image"]["tmp_name"],$upfile)){
         echo "<h1>异常:无法将头像文件移到目标目录</h1>";

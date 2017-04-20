@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-19 12:03:50
+/* Smarty version 3.1.29, created on 2017-04-20 06:25:11
   from "/Users/zhufeng/zhufeng/public/public/personnel_blog.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58f736067f6de0_94674079',
+  'unifunc' => 'content_58f838273a8953_70296776',
   'file_dependency' => 
   array (
     '16cde9120d78af7db12fd28c96b86398f030a754' => 
     array (
       0 => '/Users/zhufeng/zhufeng/public/public/personnel_blog.tpl',
-      1 => 1492596229,
+      1 => 1492661940,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58f736067f6de0_94674079 ($_smarty_tpl) {
+function content_58f838273a8953_70296776 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,7 +39,7 @@ function content_58f736067f6de0_94674079 ($_smarty_tpl) {
             font-family:arial,sans-serif;}
         .y{color:white;font-size: 25pt;text-align:center;
             font-family:arial,sans-serif;}
-        .margin{margin: 1.5cm -1cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
+        .margin{margin: 2.5cm -2cm 0cm 0cm;color:white;font-size: 15pt;text-align:right;
            font-family:arial,sans-serif};
 
     </style>
@@ -124,7 +124,7 @@ $_smarty_tpl->tpl_vars['__smarty_section_loop'] = $__section_loop_0_saved;
         <h2  class='margin'><a class='x'style='text-decoration: none'href="personnel_blog.php"><?php echo $_SESSION['valid_user'];?>
 </a><br><a class='x' href='logout.php' style='text-decoration: none'>退出</a></h2><br />
         <?php } else { ?>
-    <img align="right" class='margin'src="default_avatar_male_50.gif">
+    <img align="right" class='margin'src="./upload/default_avatar_male_50.gif">
         <h2 class='margin'><a class='x'href='register.html'style='text-decoration: none'>注册</a></h2><br />
         <?php }?>
         <div class="y">
@@ -192,7 +192,7 @@ $_smarty_tpl->tpl_vars['__smarty_section_loop'] = $__section_loop_1_saved;
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
             </div>
         </div>
     </div>
