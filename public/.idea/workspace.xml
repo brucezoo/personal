@@ -36,12 +36,12 @@
       <file leaf-file-name="personnel_blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personnel_blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding>
-                <marker date="1492752733000" expanded="true" signature="226:244" ph="select * fro... navs" />
-                <marker date="1492752733000" expanded="true" signature="449:495" ph="select * fro... article" />
-                <marker date="1492752733000" expanded="true" signature="654:721" ph="select * fro... new" />
+                <marker date="1492753424000" expanded="true" signature="218:236" ph="select * fro... navs" />
+                <marker date="1492753424000" expanded="true" signature="441:487" ph="select * fro... article" />
+                <marker date="1492753424000" expanded="true" signature="646:713" ph="select * fro... new" />
               </folding>
             </state>
           </provider>
@@ -81,14 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replace_head_image.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="replace_head_image.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/replace_head_image.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
-                <marker date="1492752733000" expanded="true" signature="226:244" ph="select * fro... navs" />
-                <marker date="1492752733000" expanded="true" signature="436:503" ph="select * fro... new" />
+                <marker date="1492753924000" expanded="true" signature="223:241" ph="select * fro... navs" />
+                <marker date="1492753924000" expanded="true" signature="433:500" ph="select * fro... new" />
               </folding>
             </state>
           </provider>
@@ -146,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogwrite.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blogwrite.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogwrite.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
+            <state relative-caret-position="288">
               <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1492749973000" expanded="true" signature="807:914" ph="insert into article... " />
@@ -228,10 +228,10 @@
         <option value="$PROJECT_DIR$/smarty_subp.php" />
         <option value="$PROJECT_DIR$/writebolg.php" />
         <option value="$PROJECT_DIR$/nav.php" />
-        <option value="$PROJECT_DIR$/personnel_blog.php" />
-        <option value="$PROJECT_DIR$/replace_head_image.php" />
         <option value="$PROJECT_DIR$/smarty_homep.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/personnel_blog.php" />
+        <option value="$PROJECT_DIR$/replace_head_image.php" />
       </list>
     </option>
   </component>
@@ -364,12 +364,12 @@
       <workItem from="1490353366501" duration="381000" />
       <workItem from="1491552352677" duration="8511000" />
       <workItem from="1491571877862" duration="13474000" />
-      <workItem from="1492589401148" duration="20789000" />
+      <workItem from="1492589401148" duration="21329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144876000" />
+    <option name="totallyTimeSpent" value="145416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -606,18 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/personnel_blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1492752733000" expanded="true" signature="226:244" ph="select * fro... navs" />
-            <marker date="1492752733000" expanded="true" signature="449:495" ph="select * fro... article" />
-            <marker date="1492752733000" expanded="true" signature="654:721" ph="select * fro... new" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smarty_homep.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -644,17 +632,6 @@
             <marker date="1492752733000" expanded="true" signature="1955:1987" ph="select * fro... feedback" />
             <marker date="1492752733000" expanded="true" signature="2375:2481" ph="select usern... feedback" />
             <marker date="1492752733000" expanded="true" signature="2569:2636" ph="select * fro... new" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replace_head_image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1492752733000" expanded="true" signature="226:244" ph="select * fro... navs" />
-            <marker date="1492752733000" expanded="true" signature="436:503" ph="select * fro... new" />
           </folding>
         </state>
       </provider>
@@ -705,11 +682,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogwrite.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
+        <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <marker date="1492749973000" expanded="true" signature="807:914" ph="insert into article... " />
             <marker date="1492749973000" expanded="true" signature="1020:1065" ph="insert into article... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personnel_blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <marker date="1492753424000" expanded="true" signature="218:236" ph="select * fro... navs" />
+            <marker date="1492753424000" expanded="true" signature="441:487" ph="select * fro... article" />
+            <marker date="1492753424000" expanded="true" signature="646:713" ph="select * fro... new" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replace_head_image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1492753924000" expanded="true" signature="223:241" ph="select * fro... navs" />
+            <marker date="1492753924000" expanded="true" signature="433:500" ph="select * fro... new" />
           </folding>
         </state>
       </provider>
