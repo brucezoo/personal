@@ -48,7 +48,7 @@ if(is_uploaded_file($_FILES["replace_head_image"]["tmp_name"])){
 echo "<h1>上传成功，正在跳转到博客首页中....</h1><br>";
 $head_image=$_FILES["replace_head_image"]["name"];
 $user=$_SESSION["valid_user"];
-$db=new mysqli("localhost","root","root","blog");
+$db=new mysqli("localhost","root","root","testDataBase");
 if(mysqli_connect_errno()){
     echo "<h1>服务器繁忙，请稍后再试</h1>";
     exit;

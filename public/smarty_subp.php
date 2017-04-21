@@ -2,7 +2,7 @@
 session_start();
 require ("./test/smarty/main1.php");
 $id=$_GET["id"];
-$db=new mysqli("127.0.0.1","root","root","blog");
+$db=new mysqli("127.0.0.1","root","root","testDataBase");
 if(mysqli_connect_errno()){
     echo "对不起，数据库连接错误";
     exit();
@@ -14,7 +14,7 @@ $ro=$resultt->fetch_object();
 
 $tpl->assign("title",$ro->title);
 @$_SESSION['valid_user'];
-$quer="select * from article_class";
+$quer="select * from navs";
 $resu=$db->query($quer);
 $rownum=$resu->num_rows;
 //var_dump($rownum);

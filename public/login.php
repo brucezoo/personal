@@ -18,6 +18,7 @@
 <?php
 session_start();
 include('./settings.php');
+$pdo=pdoConnect('testDataBase');
 $account=$_POST["account"];
 $password=$_POST["password"];
 $nickname=$_POST["nickname"];
@@ -39,21 +40,6 @@ if(!get_magic_quotes_gpc()){
 //    echo "<h2>数据库连接出现异常</h2>";
 //    exit;
 //}
-try {
-    $pdo = new PDO(
-        sprintf('mysql:host=%s;dbname=%s;port=%s;charset=%s',
-            $settings['host'],
-            $settings['dbname'],
-            $settings['port'],
-            $settings['charset']
-        ),
-        $settings['username'],
-        $settings['password']
-    );
-}catch(PDOException $e){
-    echo "数据库连接错误";
-    exit;
-}
 $query="select password from new where account=? and nickname=?";
 $statement=$pdo->prepare($query);
 $statement->execute(array($account,$nickname));

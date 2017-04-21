@@ -17,6 +17,7 @@
 </html>
 <?php
 include('./settings.php');
+$pdo=pdoConnect('testDataBase');
 $account=filter_input(INPUT_POST,'account');
 $nickname=filter_input(INPUT_POST,'nickname');
 $password=filter_input(INPUT_POST,'password');
@@ -56,21 +57,21 @@ try{
     echo "<META HTTP-EQUIV=\"refresh\" CONTENT=\"5;url=$url\">";
     exit();
 }
-try {
-    $pdo = new PDO(
-        sprintf('mysql:host=%s;dbname=%s;port=%s;charset=%s',
-            $settings['host'],
-            $settings['dbname'],
-            $settings['port'],
-            $settings['charset']
-        ),
-        $settings['username'],
-        $settings['password']
-    );
-}catch(PDOException $e){
-    echo "数据库连接错误";
-    exit;
-}
+//try {
+//    $pdo = new PDO(
+//        sprintf('mysql:host=%s;dbname=%s;port=%s;charset=%s',
+//            $settings['host'],
+//            $settings['dbname'],
+//            $settings['port'],
+//            $settings['charset']
+//        ),
+//        $settings['username'],
+//        $settings['password']
+//    );
+//}catch(PDOException $e){
+//    echo "数据库连接错误";
+//    exit;
+//}
 $sql1="select * from new WHERE account=?";
 $statement1=$pdo->prepare($sql);
 $statement1->execute(array($account));

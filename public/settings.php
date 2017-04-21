@@ -1,10 +1,20 @@
 <?php
-$settings=[
-  'host'=>'127.0.0.1',
-  'port'=>'3306',
-  'dbname'=>'blog',
-  'username'=>'root',
-  'password'=>'root',
-  'charset'=>'utf8',
-];
+    function pdoConnect($db)
+    {
+        try {
+            $pdo = new PDO(
+                sprintf('mysql:host=%s;dbname=%s;port=%s;charset=%s',
+                    'localhost',
+                    $db,
+                    '3306',
+                    'utf8'
+                ),
+                'root',
+                'root'
+            );
+        } catch (PDOException $e) {
+            return "数据库连接错误";
+        }
+        return $pdo;
+    }
 ?>

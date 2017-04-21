@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-20 19:33:11
+/* Smarty version 3.1.29, created on 2017-04-20 21:15:01
   from "/Users/zhufeng/zhufeng/public/public/writeblog.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58f89c77d29e35_74285082',
+  'unifunc' => 'content_58f8b4559a12d7_14965154',
   'file_dependency' => 
   array (
     '41ae542df3129286a82558fc0fc6db686a458fcd' => 
     array (
       0 => '/Users/zhufeng/zhufeng/public/public/writeblog.tpl',
-      1 => 1492661940,
+      1 => 1492692379,
       2 => 'file',
     ),
   ),
@@ -19,12 +19,12 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58f89c77d29e35_74285082 ($_smarty_tpl) {
+function content_58f8b4559a12d7_14965154 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">

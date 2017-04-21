@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-20 06:15:49
+/* Smarty version 3.1.29, created on 2017-04-20 16:33:57
   from "/Users/zhufeng/zhufeng/public/public/smarty_homep.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58f835f54c3b79_86060606',
+  'unifunc' => 'content_58f8c6d596be55_06980206',
   'file_dependency' => 
   array (
     '3eb4f1f1d6642f91a57f80b2a2000f7e6bc1a5cc' => 
     array (
       0 => '/Users/zhufeng/zhufeng/public/public/smarty_homep.tpl',
-      1 => 1492661701,
+      1 => 1492698832,
       2 => 'file',
     ),
   ),
@@ -19,12 +19,12 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58f835f54c3b79_86060606 ($_smarty_tpl) {
+function content_58f8c6d596be55_06980206 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
