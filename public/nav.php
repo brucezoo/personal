@@ -11,6 +11,8 @@ if(mysqli_connect_errno()){
 //$tpl->assign("nav",$array);
 //$insert="insert into article_class VALUES (null,\"新闻\"),(NULL ,\"热点\"),(NULL,\"社会\"),(NULL,\"视频\"),(NULL,\"娱乐\"),(NULL,\"图片\"),(NULL,\"科技\"),(NULL,\"汽车\"),(NULL,\"体育\"),(NULL,\"军事\"),(NULL,\"国际\"),(NULL,\"教育\"),(NULL,\"健康\"),(NULL,\"历史\"),(NULL,\"养生\"),(NULL,\"文化\");";
 //$inser=$db->query($insert);
+mysqli_query($db,'set names utf8');
+
 $que="select class_name from navs WHERE article_classid=$classid";
 $res=$db->query($que);
 $roww=$res->fetch_row();

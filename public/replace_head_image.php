@@ -1,11 +1,13 @@
 <?php
 session_start();
 require ("./test/smarty/main1.php");
-$db=new mysqli("127.0.0.1","root","root","blog");
+$db=new mysqli("127.0.0.1","root","root","testDatabase");
 if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";
     exit;
 }
+mysqli_query($db,'set names utf8');
+
 $quer="select * from navs";
 $resu=$db->query($quer);
 

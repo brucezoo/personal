@@ -6,6 +6,8 @@ if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";
     exit;
 }
+mysqli_query($db,'set names utf8');
+
 $quer="select * from navs";
 $resu=$db->query($quer);
 

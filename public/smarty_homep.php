@@ -13,6 +13,7 @@ if(mysqli_connect_errno()){
 }
 $tpl->assign("title","博客主页");
 //
+mysqli_query($db,'set names utf8');
 $quer="select * from navs";
 $resu=$db->query($quer);
 

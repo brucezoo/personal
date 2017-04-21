@@ -7,6 +7,7 @@ if(mysqli_connect_errno()){
     echo "对不起，数据库连接错误";
     exit();
 }
+mysqli_query($db,'set names utf8');
 
 $query="select * from article WHERE id=$id";
 $resultt=$db->query($query);
