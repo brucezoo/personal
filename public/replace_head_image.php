@@ -2,11 +2,12 @@
 session_start();
 require ("./test/smarty/main1.php");
 date_default_timezone_set('prc');
-$db=new mysqli("localhost","root","root","testDatabase");
+$db=new mysqli("localhost","root","root","testDataBase");
 if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";
     exit;
 }
+mysqli_query($db,'set names utf8');
 $quer="select * from navs";
 $resu=$db->query($quer);
 

@@ -1,7 +1,7 @@
 <?php
 session_start();
 require ("./test/smarty/main1.php");
-$db=new mysqli("127.0.0.1","root","root","blog");
+$db=new mysqli("127.0.0.1","root","root","testDataBase");
 if(mysqli_connect_errno()){
     echo "服务器繁忙，请稍后再试";
     exit;

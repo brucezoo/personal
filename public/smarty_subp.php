@@ -12,8 +12,8 @@ mysqli_query($db,'set names utf8');
 $query="select * from article WHERE id=$id";
 $resultt=$db->query($query);
 $ro=$resultt->fetch_object();
-
 $tpl->assign("title",$ro->title);
+//var_dump(nl2br($ro->content));
 @$_SESSION['valid_user'];
 $quer="select * from navs";
 $resu=$db->query($quer);

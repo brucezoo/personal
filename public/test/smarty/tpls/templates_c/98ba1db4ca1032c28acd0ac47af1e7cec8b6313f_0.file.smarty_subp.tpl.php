@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2017-04-20 13:52:09
+/* Smarty version 3.1.29, created on 2017-04-21 08:53:07
   from "/Users/zhufeng/zhufeng/public/public/smarty_subp.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_58f8a0e9475b06_86423006',
+  'unifunc' => 'content_58f9ac53354eb4_57621851',
   'file_dependency' => 
   array (
     '98ba1db4ca1032c28acd0ac47af1e7cec8b6313f' => 
     array (
       0 => '/Users/zhufeng/zhufeng/public/public/smarty_subp.tpl',
-      1 => 1492689121,
+      1 => 1492757583,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_58f8a0e9475b06_86423006 ($_smarty_tpl) {
+function content_58f9ac53354eb4_57621851 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -162,10 +162,11 @@ for ($__section_loop_1_iteration = 1, $_smarty_tpl->tpl_vars['__smarty_section_l
     </tr>
 
 </table>
+<hr>
 <div class="container">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-2">
-           <?php echo $_smarty_tpl->tpl_vars['va']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][2];?>
+           <?php echo nl2br($_smarty_tpl->tpl_vars['va']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][2]);?>
 
 
             <?php
@@ -175,7 +176,7 @@ if ($__section_loop_1_saved) {
 $_smarty_tpl->tpl_vars['__smarty_section_loop'] = $__section_loop_1_saved;
 }
 ?>
-
+            <hr>
             <p><b>评论专区：在文本框中输入你的评论</b></p>
             <form action=""  method="post">
                 <div class="row control-group">
@@ -218,7 +219,7 @@ for ($__section_loop_2_iteration = 1, $_smarty_tpl->tpl_vars['__smarty_section_l
     <?php echo $_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][0];?>
  　　　<?php echo $_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][2];?>
 
-    <h3><?php echo htmlentities($_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][1]);?>
+    <h3><?php echo nl2br(htmlentities($_smarty_tpl->tpl_vars['a']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_loop']->value['index'] : null)][1]));?>
 </h3><br />
 <hr width='60%' align='left'>
     <?php

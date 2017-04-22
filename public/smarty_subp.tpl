@@ -100,13 +100,14 @@
     </tr>
 
 </table>
+<hr>
 <div class="container">
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-2">
-           <{$va[loop][2]}>
+           <{nl2br($va[loop][2])}>
 
             <{/section}>
-
+            <hr>
             <p><b>评论专区：在文本框中输入你的评论</b></p>
             <form action=""  method="post">
                 <div class="row control-group">
@@ -139,7 +140,7 @@
     </p>
     <{section name=loop loop=$a}><br>
     <{$a[loop][0]}> 　　　<{$a[loop][2]}>
-    <h3><{htmlentities($a[loop][1])}></h3><br />
+    <h3><{nl2br(htmlentities($a[loop][1]))}></h3><br />
 <hr width='60%' align='left'>
     <{/section}>
    共 <{$pagenum}> 页　
