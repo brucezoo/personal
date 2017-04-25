@@ -25,7 +25,7 @@ $num=$result->num_rows;
 if($num==0){
     $tpl->assign("tips","您还没有写过任何博客哦，快点击 写博客 按钮去写自己的博客吧！");
 }
-$qryu="select * from new WHERE account='".$user."' or nickname='".$user."'";
+$qryu="select * from new WHERE account='".$user."'";
 $relut=$db->query($qryu);
 $ro=$relut->fetch_row();
 $tpl->assign("head_image",$ro[4]);

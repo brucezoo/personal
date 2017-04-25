@@ -34,7 +34,7 @@ $array = $result->fetch_all();
 foreach ($array as $value ){
 }
 @$user=$_SESSION["valid_user"];
-$qryu="select * from new WHERE account='".$user."' or nickname='".$user."'";
+$qryu="select * from new WHERE account='".$user."'";
 $relut=$db->query($qryu);
 $ro=$relut->fetch_row();
 $tpl->assign("head_image",$ro[4]);

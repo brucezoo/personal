@@ -41,10 +41,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://stemi.education/">
-                Bruce's world
-                <img src="./kuangjia/stemi-logo-white.svg" alt="underground-sign">
-            </a>
+<!--            <a class="navbar-brand" href="http://stemi.education/">-->
+<!--                Bruce's world-->
+<!--                <img src="./kuangjia/stemi-logo-white.svg" alt="underground-sign">-->
+<!--            </a>-->
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -55,11 +55,12 @@
                 <li><a href="http://stemi.education/preorder/" class="ghost-button ghost-button-blue">Preorder</a></li>
             </ul>
         </div>
-    </nav>      <div id="home-hero">
+    </nav>      
+    <div id="home-hero">
 <!--        <img alt="" title="" src="./kuangjia/home-hero.jpg">-->
         <div class="hero-overlay">
             <div class="hero-copy">
-                <h1>Bruce ' World - A PLACE OF  <span>INFINITE JOY</span></h1>
+                <h1>Bruce's World  <span>A PLACE OF JOY</span></h1>
                 <p class="lead">开发者天地，个人技术堆栈。</p>
                 <p class="lead">iBlog是一个 高性能，易拓展的博客系统，它基于PHP5.6+MySQL5.5构建。使用了Codeigniter框架。通过模版引擎将逻辑层与表现层分离。</p>      <p class="lead">SmartShop使用jQuery+Bootstrap构建,一个轻型的购物网站。</p><p>
                     <a class="btn btn-orange btn-lg" id="scroll-trigger">Have Fun!</a>
@@ -86,7 +87,7 @@
                         <p>iBlog是一个 高性能，易拓展的博客系统，它基于PHP5.6+MySQL5.5构建。使用了Codeigniter框架。通过模版引擎将逻辑层与表现层分离。网站支持注册账号，表单验证，导航分类，查看文章，发表评论，更换头像，撰写博客等功能。其中 查看头像使用了 Gravatar的API。评论系统集成 “多说”社会化评论插件。
 
                         </p>
-                        <a href="/blog.html" class="ghost-button">See it in a new page</a>
+                        <a href="/blog.html" class="ghost-button"target="_blank">See it in a new page</a>
                     </div>
                     <div class="col-sm-6 img-wrapper">
                         <img alt="" title="" src="./kuangjia/home-box.jpg">

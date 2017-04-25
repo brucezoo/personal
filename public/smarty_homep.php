@@ -35,15 +35,9 @@ $query="select id,title,author,articledate from article ";
 $result=$db->query($query);
 
 $array = $result->fetch_all();
-foreach ($array as $value ){
-//    echo "<h2 align='center'><a class='m' href='subpage.php?id={$value[0]}' style='text-decoration: none' target='_blank'>".$value[1]."</a><br /></h2>";
-//    echo "<p align='center' class=\"post-meta\">Posted by <a class='m' href='subpage.php?id={$value[0]}' style='text-decoration: none' target='_blank'>".$value[2]," on  ".$value[3]."</a><br /></p>";
-//    echo "  <hr>";
-}
-
 
 @$user=$_SESSION["valid_user"];
-$qryu="select * from new WHERE account='".$user."' or nickname='".$user."'";
+$qryu="select * from new WHERE account='".$user."'";
 $relut=$db->query($qryu);
 $ro=$relut->fetch_row();
 $tpl->assign("head_image",$ro[4]);

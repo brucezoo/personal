@@ -1,35 +1,46 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: zhufeng
- * Date: 2017/3/9
- * Time: 下午2:31
- */
-$db=new mysqli("localhost","root","root","blog");
-if(mysqli_connect_errno()){
-    echo "服务器繁忙，请稍后再试";
-    exit;
-}else{
-    echo "welcome<br>";
-}
-//Schema::create('articles',function(Blueprint $table) {
-//    $table->increments('id');
-//    $table->string('title');
-//    $table->text('content')->nullable();
-//    $table->string('author');
-//    $table->dateTime('articledate');
-//    $table->bigInteger('count');
-//    $table->integer('article_classid');
-//    $table->timestamp();
-//});
-//Schema::dropIfExists('articles');
-echo "foobau"[2];
-class Mytest{
-    function ccc($str){
-        echo $str."<br>";
-    }
-}
-//Mytest::ccc("123456");
-$object = new Mytest();
-$object->ccc("123456");
-echo array(1, 2, 3)[0]; echo [1, 2, 3][0];echo json_encode(array(1,2,3,4));
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jquery点击弹出登陆窗口</title>
+    <link rel="stylesheet" type="text/css" href="http://sandbox.runjs.cn/uploads/rs/55/sjckzedf/lanrenzhijia.css">
+    <script type="text/javascript" src="http://sandbox.runjs.cn/uploads/rs/55/sjckzedf/jquery-1.8.0.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.theme-login').click(function(){
+                $('.theme-popover-mask').fadeIn(100);
+                $('.theme-popover').slideDown(200);
+            })
+            $('.theme-poptit .close').click(function(){
+                $('.theme-popover-mask').fadeOut(100);
+                $('.theme-popover').slideUp(200);
+            })
+
+        })
+    </script>
+
+</head>
+
+<body>
+<!--<div class="theme-buy">-->
+    <a class="btn btn-primary btn-large theme-login" href="javascript:;">点击查看效果</a>
+<!--</div>-->
+<div class="theme-popover">
+    <div class="theme-poptit">
+        <a href="javascript:;" title="关闭" class="close">×</a>
+        <h3>登录 是一种态度</h3>
+    </div>
+    <div class="theme-popbod dform">
+        <form class="theme-signin" name="loginform" action="" method="post">
+            <ol>
+                <li><h4>你必须先登录！</h4></li>
+                <li><strong>用户名：</strong><input class="ipt" type="text" name="log" value="lanrenzhijia" size="20" /></li>
+                <li><strong>密码：</strong><input class="ipt" type="password" name="pwd" value="***" size="20" /></li>
+                <li><input class="btn btn-primary" type="submit" name="submit" value=" 登 录 " /></li>
+            </ol>
+        </form>
+    </div>
+</div>
+<div class="theme-popover-mask"></div>
+</body>
+</html>
